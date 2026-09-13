@@ -1,0 +1,46 @@
+{
+  "name": "KisanSetu AI",
+  "version": "1.0.0",
+  "tagline": "Smart Markets. Better Prices. Stronger Farmers.",
+  "description": "AI-powered agricultural market linkage platform for Gujarat farmers. Connects cotton and groundnut farmers to the best mandis and buyers using IBM Granite-powered agentic AI.",
+  "domain": "agri-tech",
+  "focus_crops": ["Cotton", "Groundnut"],
+  "focus_region": "Gujarat, India",
+  "technology": {
+    "frontend": "Vanilla HTML5, CSS3, JavaScript (ES6+)",
+    "ai_concept": "IBM Granite LLM",
+    "cloud": "IBM Cloud",
+    "workflow": "LangFlow Agentic Pipeline",
+    "architecture": "Multi-Agent AI System"
+  },
+  "ai_model": "IBM Granite",
+  "ai_agents": [
+    "Mandi Price Agent",
+    "Forecast Agent",
+    "Buyer Matching Agent",
+    "Sell/Store Advisor Agent",
+    "Quality Assessment Agent",
+    "Income Analysis Agent",
+    "Kisan AI Mitra (Orchestrator)"
+  ],
+  "demo_mode": true,
+  "demo_disclaimer": "All prices, buyer data, and AI recommendations shown are DEMO DATA only. Not real-time data. Not financial advice.",
+  "supported_languages": ["English", "Gujarati (ગુજરાતી)", "Hindi (हिन्दी)"],
+  "hackathon": {
+    "event": "IBM Hackathon 2025",
+    "track": "Agri-Tech AI",
+    "team": "KisanSetu",
+    "submission_type": "MVP Frontend Demo"
+  },
+  "future_integrations": [
+    "IBM Granite API (LLM reasoning)",
+    "IBM Cloud Functions (serverless agents)",
+    "Agmarknet / eNAM live mandi price API",
+    "LangFlow agent orchestration backend",
+    "SMS / WhatsApp farmer notifications",
+    "Kisan Credit Score API"
+  ],
+  "files": ["index.html", "style.css", "app.js", "app.json"],
+  "build_tool": "None — open index.html directly in browser",
+  "license": "Demo / Hackathon Only"
+}
